@@ -10,7 +10,7 @@ except:
     print("That is not a valid year")
 
 try:
-    race = int(input("What round would you like to see qualifying comparison from?: "))
+    race = int(input("What zound would you like to see qualifying comparison from?: "))
 except:
     print("That is not a valid round")
 
@@ -43,4 +43,5 @@ plt.gca().set_facecolor('#A6A09F')
 plt.barh(drivers, delta, color=colors)
 plt.ylabel("Drivers")
 plt.xlabel('Time Delta')
+
 plt.show()
